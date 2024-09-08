@@ -12,7 +12,8 @@
   list-style: none;
   margin: 0;
   padding: 0;
-  font-size: 1.6rem;
+  font-size: var(--font-size-nav-bar);
+  font-family: var(--primary-font-family);
 }
 
 .nav-bar-menu li {

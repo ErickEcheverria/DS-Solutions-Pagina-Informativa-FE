@@ -1,9 +1,19 @@
+/* Animaciones */
+@import '~animate.css/animate.min.css';
+
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Yanone+Kaffeesatz:wght@200..700&display=swap');
+
 :root {
   --backgorund-color: #FFFFFF;
   --primary-text-color: #0D0C22;
   --second-text-color: #3D3D4E;
 
+  --primary-font-family: 'Quicksand', sans-serif;
+  --primary-title-font-family: 'Yanone Kaffeesatz', sans-serif;
+
   --height-nav-bar: 100px;
+  --font-size-nav-bar: 2.2rem;
 }
 
 html {
@@ -25,4 +35,10 @@ main {
   height: auto;
   background: var(--backgorund-color);
   max-width: 1500px;
+}
+
+@media screen and (max-width: 900px) {
+  :root {
+    --font-size-nav-bar: 1.2rem;
+  }
 }
