@@ -13,7 +13,7 @@
   --primary-title-font-family: 'Yanone Kaffeesatz', sans-serif;
 
   --height-nav-bar: 100px;
-  --font-size-nav-bar: 2.2rem;
+  --font-size-nav-bar: 1.6rem;
 }
 
 html {
@@ -30,6 +30,19 @@ main {
   justify-content: center;
 }
 
+h2 {
+  font-size: 6.0rem;
+  font-weight: 400;
+  font-family: var(--primary-title-font-family);
+}
+
+p {
+  font-size: 1.8rem;
+  font-weight: 200;
+  font-family: var(--primary-font-family);
+  text-align: justify;
+}
+
 .main-container {
   width: calc(100% - 100px);
   height: auto;
@@ -40,5 +53,13 @@ main {
 @media screen and (max-width: 900px) {
   :root {
     --font-size-nav-bar: 1.2rem;
+  }
+
+  h2 {
+    font-size: 4.0rem;
+  }
+
+  p {
+    font-size: 1.5rem;
   }
 }
