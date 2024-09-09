@@ -10,6 +10,8 @@ import { NosotrosComponent } from './pages/nosotros/nosotros.component';
 import { NosotrosPhotosComponent } from './pages/nosotros-photos/nosotros-photos.component';
 import { ProductosComponent } from './pages/productos/productos.component';
 import { BlogComponent } from './pages/blog/blog.component';
+import { ContactoComponent } from './pages/contacto/contacto.component';
+import { GoogleMapsModule } from '@angular/google-maps';
 
 @NgModule({
   declarations: [
@@ -21,10 +23,12 @@ import { BlogComponent } from './pages/blog/blog.component';
     NosotrosPhotosComponent,
     ProductosComponent,
     BlogComponent,
+    ContactoComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    GoogleMapsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
