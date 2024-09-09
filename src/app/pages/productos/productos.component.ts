@@ -80,6 +80,18 @@ export class ProductosComponent {
       descripcion: 'Zapatos náuticos resistentes al agua, con suela antideslizante para un agarre seguro en superficies mojadas.',
       nameImage: '../../../assets/img/illustations/7314-6628.svg',
       precio: '375.00'
+    },
+    {
+      name: 'Calzado 13',
+      descripcion: 'Zapatos náuticos resistentes al agua, con suela antideslizante para un agarre seguro en superficies mojadas.',
+      nameImage: '../../../assets/img/illustations/15-1497.svg',
+      precio: '375.00'
+    },
+    {
+      name: 'Calzado 14',
+      descripcion: 'Zapatos náuticos resistentes al agua, con suela antideslizante para un agarre seguro en superficies mojadas.',
+      nameImage: '../../../assets/img/illustations/7133-7917.svg',
+      precio: '375.00'
     }
   ];
 

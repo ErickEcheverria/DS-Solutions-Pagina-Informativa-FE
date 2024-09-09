@@ -1,0 +1,16 @@
+<section class="main-container-blog">
+  <h2>Blog - Noticias</h2>
+
+  <div *ngFor="let noticia of listNoticias" class="noticia">
+    <div class="image">
+      <img [src]="noticia.imageUrl" [alt]="noticia.title">
+    </div>
+    <div class="container-descripcion">
+      <h3>{{noticia.title}}</h3>
+      <p>{{noticia.description}}</p>
+    </div>
+  </div>
+
+  <button>Ver más</button>
+
+</section>
