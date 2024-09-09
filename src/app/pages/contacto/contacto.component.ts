@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./contacto.component.css']
 })
 export class ContactoComponent {
-  center: google.maps.LatLngLiteral = { lat: 14.593496244962088, lng: -90.51190203862977 }; // Ubicación de ejemplo
+  center: google.maps.LatLngLiteral = { lat: 14.593496244962088, lng: -90.51190203862977 };
   zoom = 15;
 
 }

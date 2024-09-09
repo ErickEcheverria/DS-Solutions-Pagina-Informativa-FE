@@ -15,6 +15,6 @@ export class HomeComponent implements OnInit {
 
     setTimeout(() => {
       controller.showArrowDown = true;
-    }, 9000);
+    }, 5000);
   }
 }

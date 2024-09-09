@@ -2,6 +2,7 @@
   display: flex;
   width: 100%;
   height: var(--height-nav-bar);
+  background: var(--backgorund-color);
 }
 
 .nav-bar-menu {
