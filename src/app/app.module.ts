@@ -13,6 +13,9 @@ import { BlogComponent } from './pages/blog/blog.component';
 import { ContactoComponent } from './pages/contacto/contacto.component';
 import { GoogleMapsModule } from '@angular/google-maps';
 
+import { InputTextModule } from 'primeng/inputtext';
+import { InputTextareaModule } from 'primeng/inputtextarea';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -28,7 +31,9 @@ import { GoogleMapsModule } from '@angular/google-maps';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    GoogleMapsModule
+    GoogleMapsModule,
+    InputTextModule,
+    InputTextareaModule
   ],
   providers: [],
   bootstrap: [AppComponent]

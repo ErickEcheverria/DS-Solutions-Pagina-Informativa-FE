@@ -4,6 +4,9 @@
 /* Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Yanone+Kaffeesatz:wght@200..700&display=swap');
 
+@import "primeng/resources/themes/lara-light-blue/theme.css";
+@import "primeng/resources/primeng.css";
+
 :root {
   --backgorund-color: #FFFFFF;
   --primary-text-color: #0D0C22;
@@ -74,4 +77,8 @@ p {
   p {
     font-size: 1.5rem;
   }
+}
+
+.p-inputtext {
+  width: 100% !important;
 }

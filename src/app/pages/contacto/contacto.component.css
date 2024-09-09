@@ -1,0 +1,19 @@
+/* .formulario-contacto {} */
+
+h3 {
+  margin: 0;
+}
+
+.item {
+  width: 100%;
+  margin-top: 25px;
+}
+
+button {
+  margin-top: 25px;
+  height: 40px;
+  width: 100%;
+  background: var(--primary-text-color);
+  color: var(--backgorund-color);
+  font-family: var(--primary-font-family);
+}
