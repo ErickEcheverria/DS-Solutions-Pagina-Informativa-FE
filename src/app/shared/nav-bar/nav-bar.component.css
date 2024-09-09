@@ -1,0 +1,32 @@
+.main-container-nav-bar {
+  display: flex;
+  width: 100%;
+  height: var(--height-nav-bar);
+  background: var(--backgorund-color);
+}
+
+.nav-bar-menu {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: var(--font-size-nav-bar);
+  font-family: var(--primary-font-family);
+}
+
+.nav-bar-menu li {
+  margin-left: 1.5rem;
+}
+
+.nav-bar-menu a {
+  color: var(--second-text-color);
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.nav-bar-menu a:hover {
+  color: var(--primary-text-color);
+}

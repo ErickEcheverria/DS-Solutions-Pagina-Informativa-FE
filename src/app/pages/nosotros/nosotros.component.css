@@ -1,0 +1,47 @@
+.main-container-nosotros {
+  width: 100%;
+  height: 100vh;
+}
+
+.main-container-nosotros-body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.descripcion-nostros {
+  width: 90%;
+}
+
+.title-equipo {
+  margin-top: 80px;
+  text-align: right;
+}
+
+.descripcion-equipo {
+  width: 90%;
+  margin-left: calc(100% - 90%);
+}
+
+@media screen and (max-width: 900px) {
+  .title-equipo {
+    margin-top: 150px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+
+  .main-container-nosotros-body {
+    align-items: center;
+  }
+
+  .descripcion-equipo {
+    width: 80%;
+    margin-left: 0px;
+  }
+
+  .descripcion-nostros {
+    width: 80%;
+  }
+}

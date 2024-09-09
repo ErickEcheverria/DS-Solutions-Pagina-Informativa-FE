@@ -1,1 +1,89 @@
-/* You can add global styles to this file, and also import other style files */
+/* Animaciones */
+@import '~animate.css/animate.min.css';
+
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Yanone+Kaffeesatz:wght@200..700&display=swap');
+
+@import "primeng/resources/themes/lara-light-blue/theme.css";
+@import "primeng/resources/primeng.css";
+
+:root {
+  --backgorund-color: #FFFFFF;
+  --primary-text-color: #0D0C22;
+  --second-text-color: #3D3D4E;
+
+  --primary-font-family: 'Quicksand', sans-serif;
+  --primary-title-font-family: 'Yanone Kaffeesatz', sans-serif;
+
+  --height-nav-bar: 100px;
+  --font-size-nav-bar: 1.6rem;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: 'DM Sans', sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0px;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+}
+
+h2 {
+  font-size: 6.0rem;
+  font-weight: 400;
+  font-family: var(--primary-title-font-family);
+}
+
+h3 {
+  font-size: 3rem;
+  font-weight: 400;
+  font-family: var(--primary-title-font-family);
+}
+
+button {
+  font-size: 2.0rem;
+  font-weight: 300;
+  font-family: var(--primary-title-font-family);
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+p {
+  font-size: 1.8rem;
+  font-weight: 200;
+  font-family: var(--primary-font-family);
+  text-align: justify;
+}
+
+.main-container {
+  width: calc(100% - 100px);
+  height: auto;
+  background: var(--backgorund-color);
+  max-width: 1500px;
+}
+
+@media screen and (max-width: 900px) {
+  :root {
+    --font-size-nav-bar: 1.2rem;
+  }
+
+  h2 {
+    font-size: 4.0rem;
+  }
+
+  p {
+    font-size: 1.5rem;
+  }
+}
+
+.p-inputtext {
+  width: 100% !important;
+}
