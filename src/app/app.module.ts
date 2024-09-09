@@ -7,6 +7,7 @@ import { NavBarComponent } from './shared/nav-bar/nav-bar.component';
 import { FooterComponent } from './shared/footer/footer.component';
 import { HomeComponent } from './pages/home/home.component';
 import { NosotrosComponent } from './pages/nosotros/nosotros.component';
+import { NosotrosPhotosComponent } from './pages/nosotros-photos/nosotros-photos.component';
 
 @NgModule({
   declarations: [
@@ -15,6 +16,7 @@ import { NosotrosComponent } from './pages/nosotros/nosotros.component';
     FooterComponent,
     HomeComponent,
     NosotrosComponent,
+    NosotrosPhotosComponent,
   ],
   imports: [
     BrowserModule,
