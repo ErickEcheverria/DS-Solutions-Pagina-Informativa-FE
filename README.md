@@ -35,22 +35,22 @@ La web debía reflejar adecuadamente la identidad de **Piedra & Suela** y transm
 
 ## Cronología del proyecto
 
-![image-20240908232757422](.\images\image-20240908232757422.png)
+![image-20240908232757422](https://github.com/ErickEcheverria/DS-Solutions-Pagina-Informativa-FE/blob/v1.0.0/images/image-20240908232757422.png)
 
 
 
 ## Capturas del proyecto
 
-![image-20240908233310435](.\images\image-20240908233310435.png)
+![image-20240908233310435](https://github.com/ErickEcheverria/DS-Solutions-Pagina-Informativa-FE/blob/v1.0.0/images/image-20240908233310435.png)
 
-![image-20240908233350558](.\images\image-20240908233350558.png)
+![image-20240908233350558](https://github.com/ErickEcheverria/DS-Solutions-Pagina-Informativa-FE/blob/v1.0.0/images/image-20240908233350558.png)
 
-![image-20240908233717853](.\images\image-20240908233717853.png)
+![image-20240908233717853](https://github.com/ErickEcheverria/DS-Solutions-Pagina-Informativa-FE/blob/v1.0.0/images/image-20240908233717853.png)
 
-![image-20240908233744638](.\images\image-20240908233744638.png)
+![image-20240908233744638](https://github.com/ErickEcheverria/DS-Solutions-Pagina-Informativa-FE/blob/v1.0.0/images/image-20240908233744638.png)
 
-![image-20240908233814471](.\images\image-20240908233814471.png)
+![image-20240908233814471](https://github.com/ErickEcheverria/DS-Solutions-Pagina-Informativa-FE/blob/v1.0.0/images/image-20240908233814471.png)
 
-![image-20240908233843536](.\images\image-20240908233843536.png)
+![image-20240908233843536](https://github.com/ErickEcheverria/DS-Solutions-Pagina-Informativa-FE/blob/v1.0.0/images/image-20240908233843536.png)
 
-![image-20240908233915335](.\images\image-20240908233915335.png)
+![image-20240908233915335](https://github.com/ErickEcheverria/DS-Solutions-Pagina-Informativa-FE/blob/v1.0.0/images/image-20240908233915335.png)
