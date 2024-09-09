@@ -1,0 +1,16 @@
+.main-container-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 250px;
+  background: var(--primary-text-color);
+  margin-top: 150px;
+  color: #fff;
+  font-family: var(--primary-title-font-family);
+}
+
+h2 {
+  font-size: 9.0rem;
+  font-weight: 400;
+  font-family: var(--primary-title-font-family);
+}

@@ -24,9 +24,5 @@ export class NavBarComponent {
   }, {
     showValue: 'Contacto',
     value: '#contacto'
-  }, {
-    showValue: 'Preguntas frecuentes',
-    value: '#preguntas-frecuentes'
   }];
-
 }
