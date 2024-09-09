@@ -16,10 +16,10 @@ export class NavBarComponent {
     showValue: 'Nosotros',
     value: '#nosotros'
   }, {
-    showValue: 'Productos / Servicios',
+    showValue: 'Productos',
     value: '#productos-servicios'
   }, {
-    showValue: 'Blog / Noticias',
+    showValue: 'Blog',
     value: '#blog-noticias'
   }, {
     showValue: 'Contacto',
