@@ -36,6 +36,18 @@ h2 {
   font-family: var(--primary-title-font-family);
 }
 
+h3 {
+  font-size: 3rem;
+  font-weight: 400;
+  font-family: var(--primary-title-font-family);
+}
+
+button {
+  font-size: 2.0rem;
+  font-weight: 300;
+  font-family: var(--primary-title-font-family);
+}
+
 p {
   font-size: 1.8rem;
   font-weight: 200;

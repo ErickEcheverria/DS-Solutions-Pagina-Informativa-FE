@@ -1,0 +1,117 @@
+.main-container-productos {
+  display: flex;
+  height: 600px;
+  width: 100%;
+  margin-top: 150px;
+}
+
+.container-producto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 350px;
+  height: 500px;
+  background: #F5F5F5;
+  border-radius: 12px;
+}
+
+.container-producto img {
+  height: 200px;
+}
+
+.producto-description {
+  width: 90%;
+}
+
+.container-producto h3 {
+  text-align: left;
+  margin: 0px;
+  margin-bottom: 10px;
+  min-height: 20px;
+  overflow: hidden;
+}
+
+.container-producto button {
+  width: 90%;
+  height: 40px;
+  background: var(--primary-text-color);
+  color: var(--backgorund-color);
+  position: absolute;
+  bottom: 15px;
+  left: 10;
+}
+
+.producto-description {
+  width: 90%;
+}
+
+.text-right {
+  display: flex;
+  justify-content: right;
+}
+
+.slider {
+  overflow: hidden;
+  position: relative;
+  overflow: hidden;
+}
+
+.slide-track {
+  display: flex;
+  width: calc((350px + 15px) * 18);
+  animation: scroll 40s linear infinite;
+  z-index: 1;
+}
+
+.slide-track :hover {
+  animation-play-state: paused;
+  -webkit-animation-play-state: paused;
+}
+
+.slide {
+  margin-left: 15px;
+  perspective: 100px;
+}
+
+.slide:hover {
+  transform: translateZ(20px);
+  cursor: pointer;
+}
+
+.slider::before,
+.slider::after {
+  background: linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
+  content: '';
+  height: 100%;
+  position: absolute;
+  width: 15%;
+  z-index: 2;
+}
+
+.slider::before {
+  left: 0;
+  top: 0;
+}
+
+.slider::after {
+  right: 0;
+  top: 0;
+  transform: rotateZ(180deg);
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(calc((-350px - 15px) * 9));
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .main-container-productos {
+    margin-top: 400px;
+  }
+}

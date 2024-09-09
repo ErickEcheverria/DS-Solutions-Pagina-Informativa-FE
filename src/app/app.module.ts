@@ -8,6 +8,7 @@ import { FooterComponent } from './shared/footer/footer.component';
 import { HomeComponent } from './pages/home/home.component';
 import { NosotrosComponent } from './pages/nosotros/nosotros.component';
 import { NosotrosPhotosComponent } from './pages/nosotros-photos/nosotros-photos.component';
+import { ProductosComponent } from './pages/productos/productos.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { NosotrosPhotosComponent } from './pages/nosotros-photos/nosotros-photos
     HomeComponent,
     NosotrosComponent,
     NosotrosPhotosComponent,
+    ProductosComponent,
   ],
   imports: [
     BrowserModule,

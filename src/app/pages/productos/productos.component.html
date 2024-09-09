@@ -1,0 +1,23 @@
+<section class="main-container-productos slider">
+
+  <div class="slide-track">
+
+    <div *ngFor="let calzado of listCalzados" class="container-producto slide">
+      <div>
+        <img class="main-container-nosotros-image" [src]="calzado.nameImage" [alt]="calzado.name">
+      </div>
+      <div class="producto-description">
+        <h3>{{calzado.name}}</h3>
+        <p>{{calzado.descripcion}}</p>
+        <div class="text-right">
+          <h3> Q. {{calzado.precio}}</h3>
+        </div>
+      </div>
+      <button>
+        Visualizar
+      </button>
+    </div>
+  </div>
+
+
+</section>
