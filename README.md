@@ -1,27 +1,56 @@
-# DSSolutionsPaginaInformativaFE
+# DS Solutions - Pagina informativa FE
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.3.
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Descripción
 
-## Code scaffolding
+El proyecto tuvo como objetivo desarrollar una página web informativa para **Piedra & Suela** con el fin de establecer una presencia en línea sólida y profesional. La página debía ser fácil de navegar y ofrecer información clara sobre los productos, servicios y valores de la empresa, facilitando a los usuarios encontrar rápidamente lo que buscan.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+La web debía reflejar adecuadamente la identidad de **Piedra & Suela** y transmitir una imagen positiva de la empresa, funcionando como un canal de comunicación eficaz con clientes actuales y potenciales. El desarrollo se centró en garantizar una experiencia de usuario intuitiva, con una estructura de contenido organizada y accesible para mejorar la percepción y el conocimiento de la marca.
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-## Running unit tests
+## Información del proyecto
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+| Herramienta | Versión    |      |
+| ----------- | ---------- | ---- |
+| Angular     | Versión 15 |      |
 
-## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
-## Further help
+## Proyectos y versiones
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+| Proyecto                                                     | Repositorio                                                  | Versión |
+| ------------------------------------------------------------ | ------------------------------------------------------------ | ------- |
+| **[DS-Solutions-Pagina-Informativa-FE](https://github.com/ErickEcheverria/DS-Solutions-Pagina-Informativa-FE)** | https://github.com/ErickEcheverria/DS-Solutions-Pagina-Informativa-FE | v1.0.0  |
+
+
+
+## Historial del proyecto
+
+- [x] Proyecto nuevo
+- [ ] Proyecto existente
+
+
+
+## Cronología del proyecto
+
+![image-20240908232757422](https://github.com/ErickEcheverria/DS-Solutions-Pagina-Informativa-FE/blob/v1.0.0/images/image-20240908232757422.png)
+
+
+
+## Capturas del proyecto
+
+![image-20240908233310435](https://github.com/ErickEcheverria/DS-Solutions-Pagina-Informativa-FE/blob/v1.0.0/images/image-20240908233310435.png)
+
+![image-20240908233350558](https://github.com/ErickEcheverria/DS-Solutions-Pagina-Informativa-FE/blob/v1.0.0/images/image-20240908233350558.png)
+
+![image-20240908233717853](https://github.com/ErickEcheverria/DS-Solutions-Pagina-Informativa-FE/blob/v1.0.0/images/image-20240908233717853.png)
+
+![image-20240908233744638](https://github.com/ErickEcheverria/DS-Solutions-Pagina-Informativa-FE/blob/v1.0.0/images/image-20240908233744638.png)
+
+![image-20240908233814471](https://github.com/ErickEcheverria/DS-Solutions-Pagina-Informativa-FE/blob/v1.0.0/images/image-20240908233814471.png)
+
+![image-20240908233843536](https://github.com/ErickEcheverria/DS-Solutions-Pagina-Informativa-FE/blob/v1.0.0/images/image-20240908233843536.png)
+
+![image-20240908233915335](https://github.com/ErickEcheverria/DS-Solutions-Pagina-Informativa-FE/blob/v1.0.0/images/image-20240908233915335.png)
